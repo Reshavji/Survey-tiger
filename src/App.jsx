@@ -177,12 +177,13 @@ function App() {
                           Option {index + 1}:
                           <input className="input" type="text" value={option} onChange={(e) => handleOptionChange(e, index)} />
                         </label>
+                        {currentQuestion.options.length < 4 && (
+                      <button className="add-option-button" onClick={addOption}>+</button>
+                    )}
                         <button className="remove-option-button" onClick={() => removeOption(index)}>-</button>
                       </div>
                     ))}
-                    {currentQuestion.options.length < 4 && (
-                      <button className="add-option-button" onClick={addOption}>+</button>
-                    )}
+                  
                   </>
                 )}
 
