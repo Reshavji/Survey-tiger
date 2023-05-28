@@ -1,0 +1,170 @@
+/* App.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #1c64f2;
+  }
+  
+  /* Create Survey Styles */
+  .create-survey {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .select {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .option-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .remove-option-button {
+    display: block;
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .remove-option-button:hover {
+    background-color: #df26ae;
+  }
+  
+  .add-option-button {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: crimson;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .add-option-button:hover {
+    background-color:#df26ae;
+    ;
+  }
+  
+  .add-question-button,
+  .publish-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .add-question-button:hover,
+  .publish-button:hover {
+    background-color: #1c64f2;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  /* Survey Preview Styles */
+  .survey-preview {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .survey-questions {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .publish-survey-button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .publish-survey-button:hover {
+    background-color: #1c64f2;
+  }
+  
+  /* Take Survey Styles */
+  .take-survey-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
